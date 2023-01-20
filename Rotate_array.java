@@ -6,7 +6,7 @@ public class Rotate_array {
         return;
         int ans[] = new int[arr.length];
         int j=0;
-        /* 1>Intermediate array
+        // 1>Intermediate array
         
         for(int i=arr.length-k;i<arr.length;i++){
             ans[j++] = arr[i]; 
@@ -16,7 +16,7 @@ public class Rotate_array {
         }
         for(int i=0;i<arr.length;i++)
         System.out.print(ans[i]+" ");
-         */ 
+        
 
 
     }
